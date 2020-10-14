@@ -1,3 +1,0 @@
-[submodule "kicad-library"]
-	path = kicad-library
-	url = git@git.nanochip.vn:flametech/kicad-library.git
