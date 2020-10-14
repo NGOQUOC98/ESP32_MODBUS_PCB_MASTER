@@ -1,0 +1,1365 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 10090 4200 2    50   Input ~ 0
+RELAY_OUT3
+Wire Wire Line
+	10040 4200 10090 4200
+Wire Wire Line
+	9840 4260 9840 4200
+Wire Wire Line
+	9315 4420 9315 4460
+Wire Wire Line
+	9315 4460 9340 4460
+Wire Wire Line
+	9640 4560 9640 4460
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD994B4
+P 9315 4420
+AR Path="/5FD994B4" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD994B4" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 9315 4270 50  0001 C CNN
+F 1 "+5V" H 9225 4540 50  0000 C CNN
+F 2 "" H 9315 4420 50  0001 C CNN
+F 3 "" H 9315 4420 50  0001 C CNN
+	1    9315 4420
+	1    0    0    -1  
+$EndComp
+Text GLabel 7820 1805 2    50   Input ~ 0
+RELAY_OUT2
+Wire Wire Line
+	7770 1805 7820 1805
+Wire Wire Line
+	7570 1865 7570 1805
+Wire Wire Line
+	7045 2025 7045 2065
+Wire Wire Line
+	7045 2065 7070 2065
+Wire Wire Line
+	7370 2165 7370 2065
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD994C5
+P 7045 2025
+AR Path="/5FD994C5" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD994C5" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 7045 1875 50  0001 C CNN
+F 1 "+5V" H 6955 2145 50  0000 C CNN
+F 2 "" H 7045 2025 50  0001 C CNN
+F 3 "" H 7045 2025 50  0001 C CNN
+	1    7045 2025
+	1    0    0    -1  
+$EndComp
+Text GLabel 10085 3435 2    50   Input ~ 0
+RELAY_OUT1
+Wire Wire Line
+	10035 3435 10085 3435
+Wire Wire Line
+	9835 3495 9835 3435
+Wire Wire Line
+	8820 3655 8845 3655
+Wire Wire Line
+	9310 3655 9310 3695
+Wire Wire Line
+	9310 3695 9335 3695
+Wire Wire Line
+	9635 3795 9635 3695
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD994D7
+P 9310 3655
+AR Path="/5FD994D7" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD994D7" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 9310 3505 50  0001 C CNN
+F 1 "+5V" H 9220 3775 50  0000 C CNN
+F 2 "" H 9310 3655 50  0001 C CNN
+F 3 "" H 9310 3655 50  0001 C CNN
+	1    9310 3655
+	1    0    0    -1  
+$EndComp
+Text GLabel 10080 2575 2    50   Input ~ 0
+RELAY_OUT0
+Wire Wire Line
+	10030 2575 10080 2575
+Wire Wire Line
+	9830 2635 9830 2575
+Wire Wire Line
+	8815 2795 8840 2795
+Wire Wire Line
+	9305 2795 9305 2835
+Wire Wire Line
+	9305 2835 9330 2835
+Wire Wire Line
+	9630 2935 9630 2835
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD994E9
+P 9305 2795
+AR Path="/5FD994E9" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD994E9" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 9305 2645 50  0001 C CNN
+F 1 "+5V" H 9215 2915 50  0000 C CNN
+F 2 "" H 9305 2795 50  0001 C CNN
+F 3 "" H 9305 2795 50  0001 C CNN
+	1    9305 2795
+	1    0    0    -1  
+$EndComp
+Text GLabel 7840 2545 2    50   Input ~ 0
+RELAY_OUT7
+Wire Wire Line
+	7790 2545 7840 2545
+Wire Wire Line
+	7590 2605 7590 2545
+Wire Wire Line
+	6575 2765 6600 2765
+Wire Wire Line
+	7065 2765 7065 2805
+Wire Wire Line
+	7065 2805 7090 2805
+Wire Wire Line
+	7390 2905 7390 2805
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD994FA
+P 7065 2765
+AR Path="/5FD994FA" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD994FA" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 7065 2615 50  0001 C CNN
+F 1 "+5V" H 6975 2885 50  0000 C CNN
+F 2 "" H 7065 2765 50  0001 C CNN
+F 3 "" H 7065 2765 50  0001 C CNN
+	1    7065 2765
+	1    0    0    -1  
+$EndComp
+Text GLabel 7810 3430 2    50   Input ~ 0
+RELAY_OUT6
+Wire Wire Line
+	7760 3430 7810 3430
+Wire Wire Line
+	7560 3490 7560 3430
+Wire Wire Line
+	6545 3650 6570 3650
+Wire Wire Line
+	7035 3650 7035 3690
+Wire Wire Line
+	7035 3690 7060 3690
+Wire Wire Line
+	7360 3790 7360 3690
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD9950C
+P 7035 3650
+AR Path="/5FD9950C" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD9950C" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 7035 3500 50  0001 C CNN
+F 1 "+5V" H 6945 3770 50  0000 C CNN
+F 2 "" H 7035 3650 50  0001 C CNN
+F 3 "" H 7035 3650 50  0001 C CNN
+	1    7035 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7835 4185 2    50   Input ~ 0
+RELAY_OUT5
+Wire Wire Line
+	7785 4185 7835 4185
+Wire Wire Line
+	7585 4245 7585 4185
+Wire Wire Line
+	6570 4405 6595 4405
+Wire Wire Line
+	7060 4405 7060 4445
+Wire Wire Line
+	7060 4445 7085 4445
+Wire Wire Line
+	7385 4545 7385 4445
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD9951D
+P 7060 4405
+AR Path="/5FD9951D" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD9951D" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 7060 4255 50  0001 C CNN
+F 1 "+5V" H 6970 4525 50  0000 C CNN
+F 2 "" H 7060 4405 50  0001 C CNN
+F 3 "" H 7060 4405 50  0001 C CNN
+	1    7060 4405
+	1    0    0    -1  
+$EndComp
+Text GLabel 10020 1800 2    50   Input ~ 0
+RELAY_OUT4
+Wire Wire Line
+	9970 1800 10020 1800
+Wire Wire Line
+	9770 1860 9770 1800
+Wire Wire Line
+	8755 2020 8780 2020
+Wire Wire Line
+	9245 2020 9245 2060
+Wire Wire Line
+	9245 2060 9270 2060
+Wire Wire Line
+	9570 2160 9570 2060
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD9952E
+P 9245 2020
+AR Path="/5FD9952E" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD9952E" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 9245 1870 50  0001 C CNN
+F 1 "+5V" H 9155 2140 50  0000 C CNN
+F 2 "" H 9245 2020 50  0001 C CNN
+F 3 "" H 9245 2020 50  0001 C CNN
+	1    9245 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD99535
+P 8970 2160
+AR Path="/5FD99535" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD99535" Ref="K3"  Part="1" 
+F 0 "K3" H 8960 2015 39  0000 C CNN
+F 1 "10A" H 8950 2065 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 8970 2030 60  0001 C CNN
+F 3 "" H 9195 1995 60  0000 C CNN
+	1    8970 2160
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD9953B
+P 9420 2060
+AR Path="/5FD9953B" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD9953B" Ref="D16"  Part="1" 
+F 0 "D16" H 9410 2240 50  0000 C CNN
+F 1 "1N4148" H 9510 2160 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9420 1885 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9420 2060 50  0001 C CNN
+	1    9420 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD9954F
+P 9770 2060
+AR Path="/5FD9954F" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD9954F" Ref="Q6"  Part="1" 
+F 0 "Q6" V 10055 1995 50  0000 C CNN
+F 1 "BSS138" V 9990 2090 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9970 1985 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9770 2060 50  0001 L CNN
+	1    9770 2060
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD99556
+P 9870 1800
+AR Path="/5FD99556" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD99556" Ref="R53"  Part="1" 
+F 0 "R53" V 9800 1725 50  0000 L CNN
+F 1 "10" V 9840 1935 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9870 1800 50  0001 C CNN
+F 3 "330R1/10W 0603" H 9870 1800 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 9870 1800 50  0001 C CNN "manf#"
+	1    9870 1800
+	0    -1   1    0   
+$EndComp
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD99563
+P 6785 4545
+AR Path="/5FD99563" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD99563" Ref="K2"  Part="1" 
+F 0 "K2" H 6775 4400 39  0000 C CNN
+F 1 "10A" H 6765 4450 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 6785 4415 60  0001 C CNN
+F 3 "" H 7010 4380 60  0000 C CNN
+	1    6785 4545
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD99569
+P 7235 4445
+AR Path="/5FD99569" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD99569" Ref="D14"  Part="1" 
+F 0 "D14" H 7225 4625 50  0000 C CNN
+F 1 "1N4148" H 7325 4545 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7235 4270 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7235 4445 50  0001 C CNN
+	1    7235 4445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD9957D
+P 7585 4445
+AR Path="/5FD9957D" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD9957D" Ref="Q4"  Part="1" 
+F 0 "Q4" V 7870 4380 50  0000 C CNN
+F 1 "BSS138" V 7805 4475 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7785 4370 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7585 4445 50  0001 L CNN
+	1    7585 4445
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD99584
+P 7685 4185
+AR Path="/5FD99584" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD99584" Ref="R47"  Part="1" 
+F 0 "R47" V 7615 4115 50  0000 L CNN
+F 1 "10" V 7655 4320 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7685 4185 50  0001 C CNN
+F 3 "330R1/10W 0603" H 7685 4185 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 7685 4185 50  0001 C CNN "manf#"
+	1    7685 4185
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD99597
+P 7210 3690
+AR Path="/5FD99597" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD99597" Ref="D12"  Part="1" 
+F 0 "D12" H 7200 3870 50  0000 C CNN
+F 1 "1N4148" H 7300 3790 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7210 3515 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7210 3690 50  0001 C CNN
+	1    7210 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD995A4
+P 7560 3690
+AR Path="/5FD995A4" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD995A4" Ref="Q2"  Part="1" 
+F 0 "Q2" V 7845 3625 50  0000 C CNN
+F 1 "BSS138" V 7780 3720 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7760 3615 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7560 3690 50  0001 L CNN
+	1    7560 3690
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD995AB
+P 7660 3430
+AR Path="/5FD995AB" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD995AB" Ref="R45"  Part="1" 
+F 0 "R45" V 7590 3365 50  0000 L CNN
+F 1 "10" V 7630 3565 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7660 3430 50  0001 C CNN
+F 3 "330R1/10W 0603" H 7660 3430 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 7660 3430 50  0001 C CNN "manf#"
+	1    7660 3430
+	0    -1   1    0   
+$EndComp
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD995B8
+P 6790 2905
+AR Path="/5FD995B8" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD995B8" Ref="K0"  Part="1" 
+F 0 "K0" H 6780 2760 39  0000 C CNN
+F 1 "10A" H 6770 2810 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 6790 2775 60  0001 C CNN
+F 3 "" H 7015 2740 60  0000 C CNN
+	1    6790 2905
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD995BE
+P 7240 2805
+AR Path="/5FD995BE" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD995BE" Ref="D15"  Part="1" 
+F 0 "D15" H 7230 2985 50  0000 C CNN
+F 1 "1N4148" H 7330 2905 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7240 2630 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7240 2805 50  0001 C CNN
+	1    7240 2805
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD995D2
+P 7590 2805
+AR Path="/5FD995D2" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD995D2" Ref="Q5"  Part="1" 
+F 0 "Q5" V 7875 2740 50  0000 C CNN
+F 1 "BSS138" V 7810 2835 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7790 2730 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7590 2805 50  0001 L CNN
+	1    7590 2805
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD995D9
+P 7690 2545
+AR Path="/5FD995D9" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD995D9" Ref="R48"  Part="1" 
+F 0 "R48" V 7615 2480 50  0000 L CNN
+F 1 "10" V 7660 2680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7690 2545 50  0001 C CNN
+F 3 "330R1/10W 0603" H 7690 2545 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 7690 2545 50  0001 C CNN "manf#"
+	1    7690 2545
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD995EC
+P 9480 2835
+AR Path="/5FD995EC" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD995EC" Ref="D17"  Part="1" 
+F 0 "D17" H 9470 3015 50  0000 C CNN
+F 1 "1N4148" H 9570 2935 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9480 2660 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9480 2835 50  0001 C CNN
+	1    9480 2835
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD995F9
+P 9830 2835
+AR Path="/5FD995F9" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD995F9" Ref="Q7"  Part="1" 
+F 0 "Q7" V 10115 2770 50  0000 C CNN
+F 1 "BSS138" V 10050 2865 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10030 2760 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9830 2835 50  0001 L CNN
+	1    9830 2835
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD99600
+P 9930 2575
+AR Path="/5FD99600" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD99600" Ref="R54"  Part="1" 
+F 0 "R54" V 9855 2500 50  0000 L CNN
+F 1 "10" V 9900 2710 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9930 2575 50  0001 C CNN
+F 3 "330R1/10W 0603" H 9930 2575 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 9930 2575 50  0001 C CNN "manf#"
+	1    9930 2575
+	0    -1   1    0   
+$EndComp
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD9960D
+P 9035 3795
+AR Path="/5FD9960D" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD9960D" Ref="K6"  Part="1" 
+F 0 "K6" H 9025 3650 39  0000 C CNN
+F 1 "10A" H 9015 3700 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 9035 3665 60  0001 C CNN
+F 3 "" H 9260 3630 60  0000 C CNN
+	1    9035 3795
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD99613
+P 9485 3695
+AR Path="/5FD99613" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD99613" Ref="D18"  Part="1" 
+F 0 "D18" H 9475 3875 50  0000 C CNN
+F 1 "1N4148" H 9575 3795 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9485 3520 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9485 3695 50  0001 C CNN
+	1    9485 3695
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD99627
+P 9835 3695
+AR Path="/5FD99627" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD99627" Ref="Q8"  Part="1" 
+F 0 "Q8" V 10120 3630 50  0000 C CNN
+F 1 "BSS138" V 10055 3725 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10035 3620 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9835 3695 50  0001 L CNN
+	1    9835 3695
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD9962E
+P 9935 3435
+AR Path="/5FD9962E" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD9962E" Ref="R55"  Part="1" 
+F 0 "R55" V 9865 3360 50  0000 L CNN
+F 1 "10" V 9905 3570 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9935 3435 50  0001 C CNN
+F 3 "330R1/10W 0603" H 9935 3435 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 9935 3435 50  0001 C CNN "manf#"
+	1    9935 3435
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD99641
+P 7220 2065
+AR Path="/5FD99641" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD99641" Ref="D13"  Part="1" 
+F 0 "D13" H 7210 2245 50  0000 C CNN
+F 1 "1N4148" H 7310 2165 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7220 1890 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7220 2065 50  0001 C CNN
+	1    7220 2065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD9964E
+P 7570 2065
+AR Path="/5FD9964E" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD9964E" Ref="Q3"  Part="1" 
+F 0 "Q3" V 7855 2000 50  0000 C CNN
+F 1 "BSS138" V 7790 2095 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7770 1990 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7570 2065 50  0001 L CNN
+	1    7570 2065
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD99655
+P 7670 1805
+AR Path="/5FD99655" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD99655" Ref="R46"  Part="1" 
+F 0 "R46" V 7595 1730 50  0000 L CNN
+F 1 "10" V 7640 1940 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7670 1805 50  0001 C CNN
+F 3 "330R1/10W 0603" H 7670 1805 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 7670 1805 50  0001 C CNN "manf#"
+	1    7670 1805
+	0    -1   1    0   
+$EndComp
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD99662
+P 9040 4560
+AR Path="/5FD99662" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD99662" Ref="K4"  Part="1" 
+F 0 "K4" H 9030 4450 39  0000 C CNN
+F 1 "10A" H 9055 4740 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 9040 4430 60  0001 C CNN
+F 3 "" H 9265 4395 60  0000 C CNN
+	1    9040 4560
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FD99668
+P 9490 4460
+AR Path="/5FD99668" Ref="D?"  Part="1" 
+AR Path="/5FD33266/5FD99668" Ref="D19"  Part="1" 
+F 0 "D19" H 9480 4640 50  0000 C CNN
+F 1 "1N4148" H 9580 4560 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9490 4285 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9490 4460 50  0001 C CNN
+	1    9490 4460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5FD9967C
+P 9840 4460
+AR Path="/5FD9967C" Ref="Q?"  Part="1" 
+AR Path="/5FD33266/5FD9967C" Ref="Q9"  Part="1" 
+F 0 "Q9" V 10125 4395 50  0000 C CNN
+F 1 "BSS138" V 10060 4490 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10040 4385 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9840 4460 50  0001 L CNN
+	1    9840 4460
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD99683
+P 9940 4200
+AR Path="/5FD99683" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD99683" Ref="R56"  Part="1" 
+F 0 "R56" V 9860 4125 50  0000 L CNN
+F 1 "10" V 9910 4335 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9940 4200 50  0001 C CNN
+F 3 "330R1/10W 0603" H 9940 4200 50  0001 C CNN
+F 4 "CRCW0603330RJNEAC" V 9940 4200 50  0001 C CNN "manf#"
+	1    9940 4200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD99691
+P 8720 3655
+AR Path="/5FD99691" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD99691" Ref="F6"  Part="1" 
+F 0 "F6" H 8675 3720 50  0000 L CNN
+F 1 "10A 250VAC" H 8595 3580 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 8720 3655 50  0001 C CNN
+F 3 "~" H 8720 3655 50  0001 C CNN
+	1    8720 3655
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD9969B
+P 8725 4420
+AR Path="/5FD9969B" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD9969B" Ref="F4"  Part="1" 
+F 0 "F4" H 8680 4485 50  0000 L CNN
+F 1 "10A 250VAC" H 8525 4355 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 8725 4420 50  0001 C CNN
+F 3 "~" H 8725 4420 50  0001 C CNN
+	1    8725 4420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD996A2
+P 8655 2020
+AR Path="/5FD996A2" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD996A2" Ref="F3"  Part="1" 
+F 0 "F3" H 8560 2095 50  0000 L CNN
+F 1 "10A 250VAC" H 8455 1960 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 8655 2020 50  0001 C CNN
+F 3 "~" H 8655 2020 50  0001 C CNN
+	1    8655 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD996A9
+P 6470 4405
+AR Path="/5FD996A9" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD996A9" Ref="F2"  Part="1" 
+F 0 "F2" H 6425 4345 50  0000 L CNN
+F 1 "10A 250VAC" H 6275 4475 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 6470 4405 50  0001 C CNN
+F 3 "~" H 6470 4405 50  0001 C CNN
+	1    6470 4405
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD996B7
+P 6475 2765
+AR Path="/5FD996B7" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD996B7" Ref="F0"  Part="1" 
+F 0 "F0" H 6430 2710 50  0000 L CNN
+F 1 "10A 250VAC" H 6275 2845 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 6475 2765 50  0001 C CNN
+F 3 "~" H 6475 2765 50  0001 C CNN
+	1    6475 2765
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 2225 6580 2225
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD996BF
+P 6480 2025
+AR Path="/5FD996BF" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD996BF" Ref="F5"  Part="1" 
+F 0 "F5" H 6410 1950 50  0000 L CNN
+F 1 "10A 250VAC" H 6260 2090 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 6480 2025 50  0001 C CNN
+F 3 "~" H 6480 2025 50  0001 C CNN
+	1    6480 2025
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD996E8
+P 7770 2165
+AR Path="/5FD996E8" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD996E8" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 7770 1915 50  0001 C CNN
+F 1 "GND" V 7775 2037 50  0000 R CNN
+F 2 "" H 7770 2165 50  0001 C CNN
+F 3 "" H 7770 2165 50  0001 C CNN
+	1    7770 2165
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD996EE
+P 9970 2160
+AR Path="/5FD996EE" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD996EE" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 9970 1910 50  0001 C CNN
+F 1 "GND" V 9975 2032 50  0000 R CNN
+F 2 "" H 9970 2160 50  0001 C CNN
+F 3 "" H 9970 2160 50  0001 C CNN
+	1    9970 2160
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD996F4
+P 7790 2905
+AR Path="/5FD996F4" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD996F4" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 7790 2655 50  0001 C CNN
+F 1 "GND" V 7795 2777 50  0000 R CNN
+F 2 "" H 7790 2905 50  0001 C CNN
+F 3 "" H 7790 2905 50  0001 C CNN
+	1    7790 2905
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD996FA
+P 10030 2935
+AR Path="/5FD996FA" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD996FA" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 10030 2685 50  0001 C CNN
+F 1 "GND" V 10035 2807 50  0000 R CNN
+F 2 "" H 10030 2935 50  0001 C CNN
+F 3 "" H 10030 2935 50  0001 C CNN
+	1    10030 2935
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD99700
+P 10035 3795
+AR Path="/5FD99700" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD99700" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 10035 3545 50  0001 C CNN
+F 1 "GND" V 10040 3667 50  0000 R CNN
+F 2 "" H 10035 3795 50  0001 C CNN
+F 3 "" H 10035 3795 50  0001 C CNN
+	1    10035 3795
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD99706
+P 10040 4560
+AR Path="/5FD99706" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD99706" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 10040 4310 50  0001 C CNN
+F 1 "GND" V 10045 4432 50  0000 R CNN
+F 2 "" H 10040 4560 50  0001 C CNN
+F 3 "" H 10040 4560 50  0001 C CNN
+	1    10040 4560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD9970C
+P 7760 3790
+AR Path="/5FD9970C" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD9970C" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 7760 3540 50  0001 C CNN
+F 1 "GND" V 7765 3662 50  0000 R CNN
+F 2 "" H 7760 3790 50  0001 C CNN
+F 3 "" H 7760 3790 50  0001 C CNN
+	1    7760 3790
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD99712
+P 7785 4545
+AR Path="/5FD99712" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD99712" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 7785 4295 50  0001 C CNN
+F 1 "GND" V 7790 4417 50  0000 R CNN
+F 2 "" H 7785 4545 50  0001 C CNN
+F 3 "" H 7785 4545 50  0001 C CNN
+	1    7785 4545
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9245 2060
+Connection ~ 7060 4445
+Connection ~ 7065 2805
+Connection ~ 9310 3695
+Connection ~ 9315 4460
+$Comp
+L Interface_Expansion:MCP23017_SS U?
+U 1 1 5FD99720
+P 3750 2700
+AR Path="/5FD99720" Ref="U?"  Part="1" 
+AR Path="/5FD33266/5FD99720" Ref="U8"  Part="1" 
+F 0 "U8" H 3550 3700 50  0000 C CNN
+F 1 "MCP23017_SS" H 4050 3700 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 3950 1700 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3950 1600 50  0001 L CNN
+	1    3750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1900 2800 1900
+Wire Wire Line
+	2700 2000 3000 2000
+$Comp
+L Device:R_Small R?
+U 1 1 5FD9972C
+P 2800 1700
+AR Path="/5FD9972C" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD9972C" Ref="R30"  Part="1" 
+F 0 "R30" H 2859 1746 50  0000 L CNN
+F 1 "4K7" H 2859 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 1700 50  0001 C CNN
+F 3 "~" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD99732
+P 3000 1700
+AR Path="/5FD99732" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5FD99732" Ref="R32"  Part="1" 
+F 0 "R32" H 3059 1746 50  0000 L CNN
+F 1 "4K7" H 3059 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3000 1700 50  0001 C CNN
+F 3 "~" H 3000 1700 50  0001 C CNN
+	1    3000 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1800 2800 1900
+Connection ~ 2800 1900
+Wire Wire Line
+	2800 1900 3050 1900
+Wire Wire Line
+	3000 1800 3000 2000
+Connection ~ 3000 2000
+Wire Wire Line
+	3000 2000 3050 2000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD9973E
+P 3750 1600
+AR Path="/5FD9973E" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD9973E" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 3750 1450 50  0001 C CNN
+F 1 "+3V3" H 3600 1650 50  0000 C CNN
+F 2 "" H 3750 1600 50  0001 C CNN
+F 3 "" H 3750 1600 50  0001 C CNN
+	1    3750 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1600 2800 1600
+Wire Wire Line
+	3000 1600 3750 1600
+Connection ~ 3000 1600
+Connection ~ 3750 1600
+$Comp
+L Device:C_Small C?
+U 1 1 5FD99748
+P 2200 3100
+AR Path="/5FD99748" Ref="C?"  Part="1" 
+AR Path="/5FD33266/5FD99748" Ref="C32"  Part="1" 
+F 0 "C32" H 2292 3146 50  0000 L CNN
+F 1 "100nF" H 2292 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2200 3100 50  0001 C CNN
+F 3 "~" H 2200 3100 50  0001 C CNN
+	1    2200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD9974E
+P 2200 3000
+AR Path="/5FD9974E" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD9974E" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 2200 2850 50  0001 C CNN
+F 1 "+3V3" H 2215 3173 50  0000 C CNN
+F 2 "" H 2200 3000 50  0001 C CNN
+F 3 "" H 2200 3000 50  0001 C CNN
+	1    2200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD99754
+P 2200 3200
+AR Path="/5FD99754" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD99754" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 2200 2950 50  0001 C CNN
+F 1 "GND" H 2205 3027 50  0000 C CNN
+F 2 "" H 2200 3200 50  0001 C CNN
+F 3 "" H 2200 3200 50  0001 C CNN
+	1    2200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD9975A
+P 3750 3800
+AR Path="/5FD9975A" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5FD9975A" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 3750 3550 50  0001 C CNN
+F 1 "GND" H 3755 3627 50  0000 C CNN
+F 2 "" H 3750 3800 50  0001 C CNN
+F 3 "" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3800 3050 3800
+Wire Wire Line
+	3050 3800 3050 3500
+Connection ~ 3750 3800
+Connection ~ 3050 3400
+Wire Wire Line
+	3050 3400 3050 3300
+Connection ~ 3050 3500
+Wire Wire Line
+	3050 3500 3050 3400
+Text GLabel 4450 2800 2    50   Input ~ 0
+SW7
+Text GLabel 4450 2900 2    50   Input ~ 0
+SW6
+Text GLabel 4450 3000 2    50   Input ~ 0
+SW5
+Text GLabel 4450 3100 2    50   Input ~ 0
+SW4
+Text GLabel 4450 3200 2    50   Input ~ 0
+SW3
+Text GLabel 4450 3300 2    50   Input ~ 0
+SW2
+Text GLabel 4450 3400 2    50   Input ~ 0
+SW1
+Text GLabel 4450 3500 2    50   Input ~ 0
+SW0
+Text HLabel 2700 2000 0    50   Input ~ 0
+MCP23017_SCL
+Text HLabel 2700 1900 0    50   Input ~ 0
+MCP23017_SDA
+$Comp
+L power:+3V3 #PWR069
+U 1 1 601BD491
+P 3126 5946
+F 0 "#PWR069" H 3126 5796 50  0001 C CNN
+F 1 "+3V3" V 3141 6074 50  0000 L CNN
+F 2 "" H 3126 5946 50  0001 C CNN
+F 3 "" H 3126 5946 50  0001 C CNN
+	1    3126 5946
+	0    1    1    0   
+$EndComp
+Connection ~ 7360 3790
+Connection ~ 7390 2905
+Connection ~ 7370 2165
+Connection ~ 7385 4545
+Connection ~ 9640 4560
+Connection ~ 9635 3795
+Connection ~ 9630 2935
+Connection ~ 9570 2160
+$Comp
+L Device:R_Small R?
+U 1 1 5EE6CCD4
+P 2800 2700
+AR Path="/5EE6CCD4" Ref="R?"  Part="1" 
+AR Path="/5FD33266/5EE6CCD4" Ref="R31"  Part="1" 
+F 0 "R31" H 2859 2746 50  0000 L CNN
+F 1 "10K" H 2859 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 2700 50  0001 C CNN
+F 3 "~" H 2800 2700 50  0001 C CNN
+	1    2800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EE7272C
+P 2800 2900
+AR Path="/5EE7272C" Ref="C?"  Part="1" 
+AR Path="/5FD33266/5EE7272C" Ref="C33"  Part="1" 
+F 0 "C33" H 2892 2946 50  0000 L CNN
+F 1 "100nF" H 2892 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 2900 50  0001 C CNN
+F 3 "~" H 2800 2900 50  0001 C CNN
+	1    2800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2800 3050 2800
+Connection ~ 2800 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5EE8DE36
+P 2800 3000
+AR Path="/5EE8DE36" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5EE8DE36" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 2800 2750 50  0001 C CNN
+F 1 "GND" H 2805 2827 50  0000 C CNN
+F 2 "" H 2800 3000 50  0001 C CNN
+F 3 "" H 2800 3000 50  0001 C CNN
+	1    2800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EE93AC8
+P 2800 2600
+AR Path="/5EE93AC8" Ref="#PWR?"  Part="1" 
+AR Path="/5FD33266/5EE93AC8" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 2800 2450 50  0001 C CNN
+F 1 "+3V3" H 2815 2773 50  0000 C CNN
+F 2 "" H 2800 2600 50  0001 C CNN
+F 3 "" H 2800 2600 50  0001 C CNN
+	1    2800 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7045 2065
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD9963B
+P 6770 2165
+AR Path="/5FD9963B" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD9963B" Ref="K5"  Part="1" 
+F 0 "K5" H 6760 2020 39  0000 C CNN
+F 1 "10A" H 6750 2070 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 6770 2035 60  0001 C CNN
+F 3 "" H 6995 2000 60  0000 C CNN
+	1    6770 2165
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9305 2835
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD995E6
+P 9030 2935
+AR Path="/5FD995E6" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD995E6" Ref="K7"  Part="1" 
+F 0 "K7" H 9020 2790 39  0000 C CNN
+F 1 "10A" H 9010 2840 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 9030 2805 60  0001 C CNN
+F 3 "" H 9255 2770 60  0000 C CNN
+	1    9030 2935
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD996D5
+P 8715 2795
+AR Path="/5FD996D5" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD996D5" Ref="F7"  Part="1" 
+F 0 "F7" H 8675 2855 50  0000 L CNN
+F 1 "10A 250VAC" H 8505 2735 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 8715 2795 50  0001 C CNN
+F 3 "~" H 8715 2795 50  0001 C CNN
+	1    8715 2795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8715 3855 8845 3855
+Connection ~ 7035 3690
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5FD996B0
+P 6445 3650
+AR Path="/5FD996B0" Ref="F?"  Part="1" 
+AR Path="/5FD33266/5FD996B0" Ref="F1"  Part="1" 
+F 0 "F1" H 6395 3590 50  0000 L CNN
+F 1 "10A 250VAC" H 6235 3720 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 6445 3650 50  0001 C CNN
+F 3 "~" H 6445 3650 50  0001 C CNN
+	1    6445 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pas-hw-rescue:RELAY_MIN1-Relays K?
+U 1 1 5FD99591
+P 6760 3790
+AR Path="/5FD99591" Ref="K?"  Part="1" 
+AR Path="/5FD33266/5FD99591" Ref="K1"  Part="1" 
+F 0 "K1" H 6750 3645 39  0000 C CNN
+F 1 "10A" H 6740 3695 39  0000 C CNN
+F 2 "footrint_master:relay-10A-18.2x10x14" H 6760 3660 60  0001 C CNN
+F 3 "" H 6985 3625 60  0000 C CNN
+	1    6760 3790
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2626 5746 0    50   Input ~ 0
+SW7
+Text GLabel 2626 5646 0    50   Input ~ 0
+SW6
+Text GLabel 2626 5546 0    50   Input ~ 0
+SW5
+Text GLabel 2626 5246 0    50   Input ~ 0
+SW2
+Text GLabel 2626 5146 0    50   Input ~ 0
+SW1
+Text GLabel 2626 5046 0    50   Input ~ 0
+SW0
+Text GLabel 6375 2765 0    50   Input ~ 0
+P0
+Text GLabel 6600 2965 0    50   Input ~ 0
+P1
+Text GLabel 6345 3650 0    50   Input ~ 0
+P2
+Text GLabel 6345 3850 0    50   Input ~ 0
+P3
+Text GLabel 8625 4420 0    50   Input ~ 0
+P8
+Text GLabel 8850 4620 0    50   Input ~ 0
+P9
+Text GLabel 8715 3855 0    50   Input ~ 0
+P13
+Text GLabel 8620 3655 0    50   Input ~ 0
+P12
+Text GLabel 6370 4405 0    50   Input ~ 0
+P4
+Text GLabel 6595 4605 0    50   Input ~ 0
+P5
+Text GLabel 8615 2795 0    50   Input ~ 0
+P14
+Text GLabel 8840 2995 0    50   Input ~ 0
+P15
+Text GLabel 8555 2020 0    50   Input ~ 0
+P6
+Text GLabel 8780 2220 0    50   Input ~ 0
+P7
+Text GLabel 6550 2225 0    50   Input ~ 0
+P11
+Text GLabel 6380 2025 0    50   Input ~ 0
+P10
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5F60F0B1
+P 4460 5165
+F 0 "J11" H 4540 5157 50  0000 L CNN
+F 1 "Relay_0" H 4540 5066 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 4460 5165 50  0001 C CNN
+F 3 "~" H 4460 5165 50  0001 C CNN
+	1    4460 5165
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5F610F1A
+P 4470 5425
+F 0 "J12" H 4550 5417 50  0000 L CNN
+F 1 "Relay_1" H 4550 5326 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 4470 5425 50  0001 C CNN
+F 3 "~" H 4470 5425 50  0001 C CNN
+	1    4470 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5F61805A
+P 4465 5710
+F 0 "J13" H 4545 5702 50  0000 L CNN
+F 1 "Relay_2" H 4545 5611 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 4465 5710 50  0001 C CNN
+F 3 "~" H 4465 5710 50  0001 C CNN
+	1    4465 5710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5F618060
+P 4485 6030
+F 0 "J14" H 4565 6022 50  0000 L CNN
+F 1 "Relay_3" H 4565 5931 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 4485 6030 50  0001 C CNN
+F 3 "~" H 4485 6030 50  0001 C CNN
+	1    4485 6030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5F61F252
+P 5740 5110
+F 0 "J15" H 5820 5102 50  0000 L CNN
+F 1 "Relay_4" H 5820 5011 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 5740 5110 50  0001 C CNN
+F 3 "~" H 5740 5110 50  0001 C CNN
+	1    5740 5110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5F61F258
+P 5750 5370
+F 0 "J16" H 5830 5362 50  0000 L CNN
+F 1 "Relay_5" H 5830 5271 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 5750 5370 50  0001 C CNN
+F 3 "~" H 5750 5370 50  0001 C CNN
+	1    5750 5370
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5F61F25E
+P 5755 5715
+F 0 "J17" H 5835 5707 50  0000 L CNN
+F 1 "Relay_6" H 5835 5616 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 5755 5715 50  0001 C CNN
+F 3 "~" H 5755 5715 50  0001 C CNN
+	1    5755 5715
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5F61F264
+P 5765 5975
+F 0 "J18" H 5845 5967 50  0000 L CNN
+F 1 "Relay_7" H 5845 5876 50  0000 L CNN
+F 2 "footrint_master:pin_1x1_6mm" H 5765 5975 50  0001 C CNN
+F 3 "~" H 5765 5975 50  0001 C CNN
+	1    5765 5975
+	1    0    0    -1  
+$EndComp
+Text GLabel 4260 5265 0    50   Input ~ 0
+P1
+Text GLabel 4270 5425 0    50   Input ~ 0
+P2
+Text GLabel 4260 5165 0    50   Input ~ 0
+P0
+Text GLabel 4270 5525 0    50   Input ~ 0
+P3
+Text GLabel 4265 5710 0    50   Input ~ 0
+P4
+Text GLabel 4265 5810 0    50   Input ~ 0
+P5
+Text GLabel 4285 6030 0    50   Input ~ 0
+P6
+Text GLabel 4285 6130 0    50   Input ~ 0
+P7
+Text GLabel 5540 5110 0    50   Input ~ 0
+P8
+Text GLabel 5540 5210 0    50   Input ~ 0
+P9
+Text GLabel 5550 5370 0    50   Input ~ 0
+P10
+Text GLabel 5550 5470 0    50   Input ~ 0
+P11
+Text GLabel 5555 5715 0    50   Input ~ 0
+P12
+Text GLabel 5555 5815 0    50   Input ~ 0
+P13
+Text GLabel 5565 5975 0    50   Input ~ 0
+P14
+Text GLabel 5565 6075 0    50   Input ~ 0
+P15
+Wire Wire Line
+	6570 3850 6345 3850
+Wire Wire Line
+	7035 3790 7360 3790
+Wire Wire Line
+	7060 4545 7385 4545
+Wire Wire Line
+	7065 2905 7390 2905
+Wire Wire Line
+	7045 2165 7370 2165
+Wire Wire Line
+	9245 2160 9570 2160
+Wire Wire Line
+	9305 2935 9630 2935
+Wire Wire Line
+	9310 3795 9635 3795
+Wire Wire Line
+	9315 4560 9640 4560
+Wire Wire Line
+	8825 4420 8850 4420
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise LED_SW1
+U 1 1 5F5C25B5
+P 2826 5446
+F 0 "LED_SW1" H 2876 6063 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 2876 5972 50  0000 C CNN
+F 2 "footrint_master:connect_2x10_P1.27mm_Vertical" H 2826 5446 50  0001 C CNN
+F 3 "~" H 2826 5446 50  0001 C CNN
+	1    2826 5446
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 5F5C8782
+P 3126 5846
+F 0 "#PWR0131" H 3126 5596 50  0001 C CNN
+F 1 "GND" V 3131 5718 50  0000 R CNN
+F 2 "" H 3126 5846 50  0001 C CNN
+F 3 "" H 3126 5846 50  0001 C CNN
+	1    3126 5846
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4450 1900 2    50   Input ~ 0
+RELAY_OUT7
+Text GLabel 4450 2000 2    50   Input ~ 0
+RELAY_OUT6
+Text GLabel 4450 2100 2    50   Input ~ 0
+RELAY_OUT5
+Text GLabel 4450 2200 2    50   Input ~ 0
+RELAY_OUT4
+Text GLabel 4450 2300 2    50   Input ~ 0
+RELAY_OUT3
+Text GLabel 4450 2400 2    50   Input ~ 0
+RELAY_OUT2
+Text GLabel 4450 2500 2    50   Input ~ 0
+RELAY_OUT1
+Text GLabel 4450 2600 2    50   Input ~ 0
+RELAY_OUT0
+Text GLabel 3126 5046 2    50   Input ~ 0
+RELAY_OUT0
+Text GLabel 3126 5146 2    50   Input ~ 0
+RELAY_OUT1
+Text GLabel 3126 5246 2    50   Input ~ 0
+RELAY_OUT2
+Text GLabel 3126 5346 2    50   Input ~ 0
+RELAY_OUT3
+Text GLabel 3126 5546 2    50   Input ~ 0
+RELAY_OUT5
+Text GLabel 3126 5646 2    50   Input ~ 0
+RELAY_OUT6
+Text GLabel 3126 5746 2    50   Input ~ 0
+RELAY_OUT7
+Text GLabel 3126 5446 2    50   Input ~ 0
+RELAY_OUT4
+Text GLabel 2626 5346 0    50   Input ~ 0
+SW3
+Text GLabel 2626 5446 0    50   Input ~ 0
+SW4
+$Comp
+L power:GND #PWR0132
+U 1 1 5F5E7D57
+P 2626 5846
+F 0 "#PWR0132" H 2626 5596 50  0001 C CNN
+F 1 "GND" V 2631 5718 50  0000 R CNN
+F 2 "" H 2626 5846 50  0001 C CNN
+F 3 "" H 2626 5846 50  0001 C CNN
+	1    2626 5846
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0133
+U 1 1 5F5E893E
+P 2626 5946
+F 0 "#PWR0133" H 2626 5796 50  0001 C CNN
+F 1 "+3V3" V 2641 6074 50  0000 L CNN
+F 2 "" H 2626 5946 50  0001 C CNN
+F 3 "" H 2626 5946 50  0001 C CNN
+	1    2626 5946
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,393 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_UART:MAX3485 U?
+U 1 1 5F7AAE00
+P 5075 3375
+AR Path="/5F7AAE00" Ref="U?"  Part="1" 
+AR Path="/5F786E33/5F7AAE00" Ref="U12"  Part="1" 
+F 0 "U12" H 5325 3975 50  0000 C CNN
+F 1 "MAX3485" H 5325 3875 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5075 2675 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 5075 3425 50  0001 C CNN
+	1    5075 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F7AAE06
+P 5525 3425
+AR Path="/5F7AAE06" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5F7AAE06" Ref="R71"  Part="1" 
+F 0 "R71" H 5584 3471 50  0000 L CNN
+F 1 "120R" H 5584 3380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5525 3425 50  0001 C CNN
+F 3 "~" H 5525 3425 50  0001 C CNN
+	1    5525 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5525 3525 5525 3575
+Wire Wire Line
+	5525 3575 5475 3575
+Wire Wire Line
+	5525 3325 5525 3275
+Wire Wire Line
+	5525 3275 5475 3275
+Text GLabel 8250 3275 2    50   Input ~ 0
+RS485_B
+Text GLabel 8250 3575 2    50   Input ~ 0
+RS485_A
+Connection ~ 5525 3275
+Connection ~ 5525 3575
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AAE14
+P 5075 3975
+AR Path="/5F7AAE14" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5F7AAE14" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 5075 3725 50  0001 C CNN
+F 1 "GND" H 5080 3802 50  0000 C CNN
+F 2 "" H 5075 3975 50  0001 C CNN
+F 3 "" H 5075 3975 50  0001 C CNN
+	1    5075 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F7AAE1A
+P 5525 3175
+AR Path="/5F7AAE1A" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5F7AAE1A" Ref="R70"  Part="1" 
+F 0 "R70" H 5584 3221 50  0000 L CNN
+F 1 "1K" H 5584 3130 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5525 3175 50  0001 C CNN
+F 3 "~" H 5525 3175 50  0001 C CNN
+	1    5525 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AAE20
+P 5525 3075
+AR Path="/5F7AAE20" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5F7AAE20" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5525 2825 50  0001 C CNN
+F 1 "GND" H 5530 2902 50  0000 C CNN
+F 2 "" H 5525 3075 50  0001 C CNN
+F 3 "" H 5525 3075 50  0001 C CNN
+	1    5525 3075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F7AAE26
+P 5525 3675
+AR Path="/5F7AAE26" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5F7AAE26" Ref="R72"  Part="1" 
+F 0 "R72" H 5584 3721 50  0000 L CNN
+F 1 "1K" H 5584 3630 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5525 3675 50  0001 C CNN
+F 3 "~" H 5525 3675 50  0001 C CNN
+	1    5525 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F7AAE32
+P 3225 3275
+AR Path="/5F7AAE32" Ref="C?"  Part="1" 
+AR Path="/5F786E33/5F7AAE32" Ref="C48"  Part="1" 
+F 0 "C48" H 3317 3321 50  0000 L CNN
+F 1 "100nF" H 3317 3230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3225 3275 50  0001 C CNN
+F 3 "~" H 3225 3275 50  0001 C CNN
+	1    3225 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AAE38
+P 3225 3375
+AR Path="/5F7AAE38" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5F7AAE38" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 3225 3125 50  0001 C CNN
+F 1 "GND" H 3230 3202 50  0000 C CNN
+F 2 "" H 3225 3375 50  0001 C CNN
+F 3 "" H 3225 3375 50  0001 C CNN
+	1    3225 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F7AAE3E
+P 4525 3125
+AR Path="/5F7AAE3E" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5F7AAE3E" Ref="R69"  Part="1" 
+F 0 "R69" H 4584 3171 50  0000 L CNN
+F 1 "10K" H 4584 3080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4525 3125 50  0001 C CNN
+F 3 "~" H 4525 3125 50  0001 C CNN
+	1    4525 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 3275 4525 3275
+Wire Wire Line
+	4525 3275 4525 3225
+Wire Wire Line
+	4525 3025 4525 2875
+Wire Wire Line
+	4525 2875 5075 2875
+Wire Wire Line
+	4525 3275 4175 3275
+Connection ~ 4525 3275
+Wire Wire Line
+	4675 3375 4675 3475
+$Comp
+L Device:R_Small R?
+U 1 1 5F7AAE4C
+P 4325 3125
+AR Path="/5F7AAE4C" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5F7AAE4C" Ref="R68"  Part="1" 
+F 0 "R68" H 4384 3171 50  0000 L CNN
+F 1 "10K" H 4384 3080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4325 3125 50  0001 C CNN
+F 3 "~" H 4325 3125 50  0001 C CNN
+	1    4325 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 3025 4325 2875
+Wire Wire Line
+	4325 2875 4525 2875
+Connection ~ 4525 2875
+Wire Wire Line
+	4325 3225 4325 3375
+Wire Wire Line
+	4325 3375 4675 3375
+Connection ~ 4675 3375
+Wire Wire Line
+	4325 3375 4325 3525
+Connection ~ 4325 3375
+$Comp
+L Device:R_Small R?
+U 1 1 5F7AAE5A
+P 3725 3925
+AR Path="/5F7AAE5A" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5F7AAE5A" Ref="R67"  Part="1" 
+F 0 "R67" H 3784 3971 50  0000 L CNN
+F 1 "10K" H 3784 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3725 3925 50  0001 C CNN
+F 3 "~" H 3725 3925 50  0001 C CNN
+	1    3725 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AAE66
+P 4325 4025
+AR Path="/5F7AAE66" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5F7AAE66" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 4325 3775 50  0001 C CNN
+F 1 "GND" H 4330 3852 50  0000 C CNN
+F 2 "" H 4325 4025 50  0001 C CNN
+F 3 "" H 4325 4025 50  0001 C CNN
+	1    4325 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 3575 4675 4175
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5F7AAE6D
+P 3475 3925
+AR Path="/5F7AAE6D" Ref="D?"  Part="1" 
+AR Path="/5F786E33/5F7AAE6D" Ref="D20"  Part="1" 
+F 0 "D20" V 3521 3855 50  0000 R CNN
+F 1 "TVS 18V" V 3430 3855 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 3475 3925 50  0001 C CNN
+F 3 "~" V 3475 3925 50  0001 C CNN
+	1    3475 3925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3475 3825 3475 3725
+Wire Wire Line
+	3475 3725 3725 3725
+Wire Wire Line
+	3475 4025 3475 4175
+Wire Wire Line
+	3475 4175 3725 4175
+Wire Wire Line
+	3725 3825 3725 3725
+Connection ~ 3725 3725
+Wire Wire Line
+	3725 3725 3925 3725
+Wire Wire Line
+	3725 4025 3725 4175
+Connection ~ 3725 4175
+Wire Wire Line
+	3725 4175 4675 4175
+$Comp
+L Device:C_Small C?
+U 1 1 5F7AAE7E
+P 3925 3925
+AR Path="/5F7AAE7E" Ref="C?"  Part="1" 
+AR Path="/5F786E33/5F7AAE7E" Ref="C49"  Part="1" 
+F 0 "C49" H 4017 3971 50  0000 L CNN
+F 1 "1nF" H 4017 3880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3925 3925 50  0001 C CNN
+F 3 "~" H 3925 3925 50  0001 C CNN
+	1    3925 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 3825 3925 3725
+Connection ~ 3925 3725
+Wire Wire Line
+	3925 3725 4025 3725
+Wire Wire Line
+	3925 4025 4325 4025
+Wire Wire Line
+	4325 4025 4325 3925
+Connection ~ 4325 4025
+Wire Wire Line
+	5525 3575 5975 3575
+Wire Wire Line
+	5525 3275 5775 3275
+$Comp
+L pas-hw-rescue:SM712-SM712 U?
+U 1 1 5F7AAE8C
+P 5675 4225
+AR Path="/5F7AAE8C" Ref="U?"  Part="1" 
+AR Path="/5F786E33/5F7AAE8C" Ref="U13"  Part="1" 
+F 0 "U13" H 6103 4446 50  0000 L CNN
+F 1 "SM712" H 6103 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5675 4225 50  0001 C CNN
+F 3 "" H 5675 4225 50  0001 C CNN
+	1    5675 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 3775 5775 3275
+Connection ~ 5775 3275
+Wire Wire Line
+	5775 3275 6275 3275
+Wire Wire Line
+	5975 3775 5975 3575
+Connection ~ 5975 3575
+Wire Wire Line
+	5975 3575 6275 3575
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AAE98
+P 5875 4325
+AR Path="/5F7AAE98" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5F7AAE98" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 5875 4075 50  0001 C CNN
+F 1 "GND" H 5880 4152 50  0000 C CNN
+F 2 "" H 5875 4325 50  0001 C CNN
+F 3 "" H 5875 4325 50  0001 C CNN
+	1    5875 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F7AAEC9
+P 5075 2875
+AR Path="/5F7AAEC9" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5F7AAEC9" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 5075 2725 50  0001 C CNN
+F 1 "+3V3" H 5090 3048 50  0000 C CNN
+F 2 "" H 5075 2875 50  0001 C CNN
+F 3 "" H 5075 2875 50  0001 C CNN
+	1    5075 2875
+	1    0    0    -1  
+$EndComp
+Connection ~ 5075 2875
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F7AAED0
+P 3225 3175
+AR Path="/5F7AAED0" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5F7AAED0" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3225 3025 50  0001 C CNN
+F 1 "+3V3" H 3240 3348 50  0000 C CNN
+F 2 "" H 3225 3175 50  0001 C CNN
+F 3 "" H 3225 3175 50  0001 C CNN
+	1    3225 3175
+	1    0    0    -1  
+$EndComp
+Text HLabel 4175 3275 0    50   Input ~ 0
+RS485_RX
+Text HLabel 3475 4174 0    50   Input ~ 0
+RS485_TX
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EE336AD
+P 5525 3775
+AR Path="/5EE336AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F786E33/5EE336AD" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 5525 3625 50  0001 C CNN
+F 1 "+3V3" H 5540 3948 50  0000 C CNN
+F 2 "" H 5525 3775 50  0001 C CNN
+F 3 "" H 5525 3775 50  0001 C CNN
+	1    5525 3775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EE35389
+P 6375 3275
+AR Path="/5EE35389" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5EE35389" Ref="R73"  Part="1" 
+F 0 "R73" H 6434 3321 50  0000 L CNN
+F 1 "PTC" H 6434 3230 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6375 3275 50  0001 C CNN
+F 3 "~" H 6375 3275 50  0001 C CNN
+	1    6375 3275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EE37073
+P 6375 3575
+AR Path="/5EE37073" Ref="R?"  Part="1" 
+AR Path="/5F786E33/5EE37073" Ref="R74"  Part="1" 
+F 0 "R74" H 6434 3621 50  0000 L CNN
+F 1 "PTC" H 6434 3530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6375 3575 50  0001 C CNN
+F 3 "~" H 6375 3575 50  0001 C CNN
+	1    6375 3575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6475 3575 8250 3575
+Wire Wire Line
+	6475 3275 8250 3275
+$Comp
+L Transistor_FET:BSS138 Q11
+U 1 1 5F5A1E35
+P 4225 3725
+F 0 "Q11" H 4429 3771 50  0000 L CNN
+F 1 "BSS138" H 4429 3680 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4425 3650 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4225 3725 50  0001 L CNN
+	1    4225 3725
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
